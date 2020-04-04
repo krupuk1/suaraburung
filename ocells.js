@@ -4,4 +4,4 @@ $.each(ocells,function(index,value){var current_audio=$('#'+value);if(current_au
 function get_key_bird(index_key){return index_key.replace("o-","#")}
 function playAudio(audio){audio.trigger('play');}
 function stopAudio(audio){audio.trigger('pause');audio.prop('currentTime',0);}
-function createAudio(ocell){var audio_arr=["<audio id='",ocell,"' class='audioOcells' controls preload='none'>","<source src='audio/",ocell,".mp3' type='audio/mpeg'>","<source src='https://coneixelriu.museudelter.cat/audio/",ocell,".ogg' type='audio/ogg'>","</audio>"];$('body').append(audio_arr.join(''));}
+function createAudio(ocell){var audio_arr=["<audio id='",ocell,"' class='audioOcells' controls preload='none'>","<source src='https://coneixelriu.museudelter.cat/audio/",ocell,".mp3' type='audio/mpeg'>","<source src='https://coneixelriu.museudelter.cat/audio/",ocell,".ogg' type='audio/ogg'>","</audio>"];$('body').append(audio_arr.join(''));}
