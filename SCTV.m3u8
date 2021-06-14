@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-INDEPENDENT-SEGMENTS
+https://etslive-2-vidio-com.akamaized.net/exp=1597500409~acl=/vp9/204_stream.mpd!/vp9/204/*~hmac=33ba0a967b26e9983d77728e840dcf861f812377269486aa2b2f3d8dbd57d746/vp9/204_stream.mpd
